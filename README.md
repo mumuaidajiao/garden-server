@@ -1,6 +1,6 @@
 # garden · 服务端
 
-两台设备之间的中转站。她那一端（[garden-app](https://github.com/)）发过来的东西经过这里，
+两台设备之间的中转站。她那一端（[garden-app](https://github.com/mumuaidajiao/garden)）发过来的东西经过这里，
 **外加一层情绪判断和危机护栏** —— 这层是这个项目存在的主要理由。
 
 ```
