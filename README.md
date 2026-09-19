@@ -28,14 +28,6 @@ node relay.js                          # 默认 127.0.0.1:9394
 pm2 start relay.js --name garden && pm2 save
 ```
 
-## 要点
-
-**别把 `config.json` 提交上去。** 里面有你的 API key 和两把令牌。
-仓库里只有 `config.example.json`（占位符版）。
-
-**提示词是本项目最重要的东西**，`config.example.json` 里那两份是完整的可用版本
-（包括中文网络用语的坑：一句「我去死了」意思是「笑死我了」，判成危机会真的拨电话出去）。
-改之前先读 `_notes.guard` 那三条护栏。
 
 **首次部署要建两个目录**（图库和歌单，没有会自动跳过，但功能就是空的）：
 
