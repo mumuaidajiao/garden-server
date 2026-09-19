@@ -1,0 +1,14 @@
+{
+  "name": "garden-server",
+  "version": "1.0.0",
+  "description": "garden 服务端 —— 两台设备之间的中转，外加情绪判断与危机护栏",
+  "main": "relay.js",
+  "scripts": {
+    "start": "node relay.js",
+    "check": "node --check relay.js"
+  },
+  "optionalDependencies": {
+    "lunar-javascript": "*"
+  },
+  "license": "MIT"
+}
